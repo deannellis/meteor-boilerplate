@@ -1,0 +1,33 @@
+//Colors
+$gray: #dddddd;
+$main-accent: #4FB99F;
+$light-gray: #F9F9F9;
+$dark-gray: #777777;
+
+//Spacing
+$space: 1.4rem;
+$site-max-width: 50rem;
+
+//Font Sizes
+$base-font-size: 1.4rem;
+$large-font-size: 1.8rem;
+
+//Form Inputs
+$input-border: $gray;
+
+// Boxed View
+$boxed-view-overlay-bg: $gray;
+$boxed-view-bg: #fff;
+
+//Button
+$button-bg: $main-accent;
+$button-text: white;
+$button-outlined-color: $main-accent;
+$button-secondary-bg: $light-gray;
+$button-secondary-color: $dark-gray;
+$button-secondary-border: $gray;
+
+// Item
+$item-bg: $light-gray;
+$item-border: darken($item-bg, 8%);
+$item-text-color: $dark-gray;
