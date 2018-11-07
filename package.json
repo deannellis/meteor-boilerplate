@@ -3,9 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test": "meteor test --once --driver-package meteortesting:mocha",
-    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
-    "visualize": "meteor --production --extra-packages bundle-visualizer"
+    "test": "meteor test --driver-package=cultofcoders:mocha"
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
@@ -13,15 +11,15 @@
     "moment": "^2.22.2",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
+    "react-addons-pure-render-mixin": "^15.6.2",
     "react-dom": "^16.5.2",
     "react-router-dom": "^4.3.1",
     "simpl-schema": "0.0.3"
   },
-  "meteor": {
-    "mainModule": {
-      "client": "client/main.js",
-      "server": "server/main.js"
-    },
-    "testModule": "tests/main.js"
+  "devDependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "expect": "^1.20.2",
+    "react-addons-test-utils": "^15.6.2"
   }
 }
